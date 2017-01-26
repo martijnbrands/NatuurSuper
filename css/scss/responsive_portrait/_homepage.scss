@@ -1,0 +1,34 @@
+/* 	SECTION LANDING*/
+.landing{
+	h1{
+		font-size: 10vw;
+	}
+}
+/* 	SECTION PROJECTS*/
+.cards__container{
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	.card{
+		width:60%;
+	}	
+}
+
+/*	SECTION ABOUT*/
+.about{
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:reverse;
+	-ms-flex-direction:column-reverse;
+	flex-direction:column-reverse;
+	figure{
+		width:100%;
+	}
+	.textual{
+		width:100%;
+		padding: 0 50px 50px 30px;
+	}
+}

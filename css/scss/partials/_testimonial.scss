@@ -1,0 +1,26 @@
+.testemonial{
+	display:-ms-flexbox;
+	display:-webkit-box;
+	display:flex;
+	-ms-flex-direction:row;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	flex-direction:row;
+	-ms-flex-align:center;
+	-webkit-box-align:center;
+	align-items:center;
+	padding:50px 0;
+	figure{
+		text-align:center;
+		width:40%;
+	}
+	.textual{
+		width:50%;
+	}
+	img{
+		width:150px;
+		height:150px;
+		border-radius:50%;
+		@include object-fit(cover);
+	}
+}

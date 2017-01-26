@@ -1,0 +1,42 @@
+.cto__btn{
+	-webkit-transition: all .1s;
+	transition: all .1s;
+	display:inline-block;
+	background:$primary-color;
+	padding:15px;
+	border-radius:25px;
+	text-transform:uppercase;
+	margin-bottom:30px;
+	border-bottom: 5px solid darken($primary-color, 10%);
+	color:#fff;
+	text-decoration: none;
+	text-align:center;
+	cursor:pointer;
+	&:hover{
+		border-bottom: 0px solid transparent;
+		-webkit-transform: translate(0px,5px);
+		transform: translate(0px,5px);
+	}
+}
+
+.read__more__btn{
+	background: url(../../images/read__more__btn.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	background-size: 100% 100%;
+	padding: 10px;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	i{
+		line-height: 50px;
+	}
+	&:hover{
+		background: url(../../images/read__more__btn_hover.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-color: transparent;
+		background-size: 100% 100%;
+	}
+}

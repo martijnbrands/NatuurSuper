@@ -1,0 +1,54 @@
+h1{
+	font-size:8vw;
+	text-align:center;
+	color:#fff;
+	text-shadow:1px 1px #000;
+	font-family: 'Arima Madurai', cursive;
+	line-height:130%;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Roboto', sans-serif;
+	text-transform:uppercase;
+}
+h2{
+	font-size:36px;
+	font-weight:700;	
+	padding:30px 0;
+	
+}
+h3{
+	font-size: 28px;
+	font-weight:700;
+}
+
+p{
+	font-size:16px;
+	line-height:140%;
+	font-family: 'Roboto', sans-serif;
+}
+img{
+	max-width:100%;
+	width:100%;
+	height:auto;
+}
+
+span{
+	color: $primary-color;
+}
+
+ul{
+	list-style: none;
+	li{
+		color: #212121;
+		text-transform: uppercase;
+		font-weight: 500;
+		line-height: 150%;
+		&:before{
+			position: relative;
+			top: 12px;
+			content: "\2022\A0";
+    		color: $primary-color;
+    		font-size: 48px;
+    	}
+    }
+}

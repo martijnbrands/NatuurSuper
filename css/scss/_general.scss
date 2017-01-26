@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;	
+	overflow-x:hidden;
+}
+
+.container{
+	max-width: 1920px;
+}
+
+.textual__container{
+	margin: 0 auto;
+	width: 60%;
+	padding: 30px;
+	h2{
+		background: #fff;
+	}
+}
+
+.image__container{
+	height: 350px;
+	img{
+		height: 100%;
+		@include object-fit(cover);
+	}
+}

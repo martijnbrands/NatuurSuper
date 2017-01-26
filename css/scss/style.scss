@@ -1,0 +1,48 @@
+/*CORE*/
+@import "../scss/_variables.scss";
+@import "../scss/_mixins.scss";
+@import "../scss/_general.scss";
+@import "../scss/_textual.scss";
+
+/*PAGES*/
+@import "../scss/pages/_homepage.scss";
+@import "../scss/pages/_toolspage.scss";
+
+/*PARTIALS*/
+@import "../scss/partials/_navigation.scss";
+@import "../scss/partials/_ui.scss";
+@import "../scss/partials/_form.scss";
+@import "../scss/partials/_testimonial.scss";
+@import "../scss/partials/_sponsors.scss";
+@import "../scss/partials/_footer.scss";
+@import "../scss/partials/_header__images.scss";
+@import "../scss/partials/_knowing__more.scss";
+@import "../scss/partials/_team.scss";
+@import "../scss/partials/_newsletter.scss";
+
+/*RESPONSIVE TABLET LANDSCAPE*/
+@media screen and (max-width: 1023px){
+	@import "../scss/responsive_landscape/_navigation.scss";
+	@import "../scss/responsive_landscape/_toolspage.scss";
+	@import "../scss/responsive_landscape/_form.scss";
+}
+
+/*RESPONSIVE TABLET PORTRAIT*/
+@media screen and (max-width: 768px){
+	@import "../scss/responsive_portrait/_general.scss";
+	@import "../scss/responsive_portrait/_homepage.scss";
+	@import "../scss/responsive_portrait/_toolspage.scss";
+	@import "../scss/responsive_portrait/_sponsors.scss";
+	@import "../scss/responsive_portrait/_testimonial.scss";
+	@import "../scss/responsive_portrait/_footer.scss";
+}
+
+/*RESPONSIVE MOBILE*/
+@media screen and (max-width: 480px){
+	@import "../scss/responsive_mobile/_general.scss";
+	@import "../scss/responsive_mobile/_textual.scss";
+	@import "../scss/responsive_mobile/_homepage.scss";
+	@import "../scss/responsive_mobile/_toolspage.scss";
+	@import "../scss/responsive_mobile/_sponsors.scss";
+	@import "../scss/responsive_mobile/_team.scss";
+}

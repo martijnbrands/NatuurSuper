@@ -1,0 +1,14 @@
+.tool__container{
+	.tool{
+		width: 95%;
+		margin: 15px auto;
+		.textual{
+			padding: 15px;
+		}
+	}	
+	.tool:nth-child(even){
+		.textual{
+			padding: 15px;
+		}
+	}
+}

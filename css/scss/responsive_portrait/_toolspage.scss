@@ -1,0 +1,27 @@
+.tool__container{
+	.tool{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		width: 80%;
+		.textual{
+			width: 100%;
+			padding: 30px;
+		}
+	}
+	.tool:nth-child(even){
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		.textual{
+			width: 100%;
+			padding: 30px;
+		}
+	}
+	figure{
+		width: 100%;
+		height: 250px;
+	}	
+}

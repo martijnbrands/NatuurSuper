@@ -1,0 +1,29 @@
+.sponsors{
+	text-align:center;
+	background:#f1f1f1;
+	.cto__btn{
+		margin-bottom:30px;
+	}
+}
+.sponsor__logos{
+	display:-ms-flexbox;
+	display:-webkit-box;
+	display:flex;
+	-ms-flex-direction:row;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	flex-direction:row;
+	-ms-flex-pack:distribute;
+	justify-content:space-around;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	padding:50px 0;
+	img{
+		width:20%;
+		height: 120px;
+		@include object-fit(contain);
+	}
+}
